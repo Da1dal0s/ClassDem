@@ -22,7 +22,7 @@ layout: default
     <div class="container">
         <div class="section-header">
             <div class="section-label">About the Project</div>
-            <h2 class="section-title">A Revolutionary Reconceptualisation</h2>
+            <h2 class="section-title">Class at the centre of the historical reconstruction of ancient Greek democracy</h2>
         </div>
         <div class="container-narrow">
             {{ content }}
@@ -38,7 +38,8 @@ layout: default
             <h2 class="section-title">Four Interconnected Areas of Investigation</h2>
         </div>
         <div class="research-grid">
-            {% for strand in site.research %}
+            {% assign sorted_research = site.research | sort: 'number' %}
+            {% for strand in sorted_research %}
             <div class="research-card">
                 <div class="research-card-number">{{ strand.number }}</div>
                 <h3>{{ strand.title }}</h3>

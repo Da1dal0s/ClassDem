@@ -8,8 +8,6 @@ team:
     role: Principal Investigator
   - name: David Lewis
     role: Co-Investigator
-  - name: PhD Student
-    role: To be appointed
 ---
 
 ## Overview

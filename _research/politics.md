@@ -6,10 +6,6 @@ excerpt: Examining how class oppositions structured episodes of civil strife (st
 team:
   - name: Mirko Canevaro
     role: Principal Investigator
-  - name: Postdoctoral Fellow
-    role: To be appointed
-  - name: PhD Student
-    role: To be appointed
 ---
 
 ## Overview

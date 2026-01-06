@@ -40,10 +40,11 @@ The project will favour approaches to class that can be productively integrated:
 > "Class happens when some men feel and articulate the identity of their interests as between themselves, and as against other men whose interests are different."
 > — E.P. Thompson, *The Making of the English Working Class* (1963)
 
-There are significant points of contact between E.P. Thompson's work and Pierre Bourdieu's sociology:
+Class is approached as a historical and relational phenomenon: something that takes shape over time in social relationships, through processes of accumulation, reproduction, and conflict, rather than as a static social structure. Class positions and identities acquire meaning only in relation to one another, through opposition and differentiation.
 
-- **Historical Analysis**: Both understand class as something which happens in human relationships — a historical relationship involving temporal accumulation and social reproduction
-- **Relational Understanding**: Both understand class oppositionally, with forms of capital becoming significant only relationally
-- **Cultural Dimension**: Both stress how class-consciousness is handled in cultural terms
-- **Beyond Determinism**: Both avoid economic determinism, opening the door for analysis that valorises cultural tastes and traditional values
+These oppositions are grounded in economic life as it is lived and experienced—above all in conditions of labour, security and insecurity, dependency, and access to resources—which underpin the formation of class identities without mechanically determining them. Economic experience provides the material basis from which class distinctions are articulated socially, culturally, and politically.
+
+Class struggle is therefore understood broadly. It includes relations of domination and exploitation, but is not limited to them. It also encompasses struggles over redistribution, widely conceived: over income and resources, but also over political power, public pay, honours, leisure, dignity, and institutional arrangements, insofar as these are constructed and contested in oppositional class terms.
+
+Finally, the project treats culture and politics not as secondary "reflections" of economic relations, but as key arenas in which class identities are formed, negotiated, and fought over. Cultural practices, values, and traditions are central to how economic experiences are interpreted and mobilised, and to how class antagonisms take durable and historically specific forms.
 
