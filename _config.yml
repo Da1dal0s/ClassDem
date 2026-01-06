@@ -1,8 +1,8 @@
 # Site settings
 title: ClassDem
 description: "Class Struggle in Ancient Greek Democracy — UKRI/ERC Frontier Research Grant 2024–2029"
-url: "https://classdem.github.io" # Update this with your actual URL
-baseurl: "" # Leave empty if using root domain
+url: "https://da1dal0s.github.io"
+baseurl: "/ClassDem"
 
 # Project info
 project:
