@@ -708,6 +708,8 @@ section {
 
     .nav-links {
         display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
         position: fixed;
         top: 0;
         left: 0;
@@ -731,6 +733,8 @@ section {
 
     .nav-links > li {
         display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
         width: 100%;
         text-align: center;
         border-bottom: 1px solid var(--marble-gray);
@@ -738,27 +742,34 @@ section {
     }
 
     .nav-links > li > a {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
         font-size: 1.2rem;
-        display: block;
         padding: 0.5rem;
+        color: var(--text-primary) !important;
     }
 
     .nav-dropdown {
+        display: block !important;
+        visibility: visible !important;
         width: 100%;
     }
 
     .nav-dropdown > a {
+        display: block !important;
+        visibility: visible !important;
         font-size: 1rem;
-        color: var(--text-secondary);
+        color: var(--text-secondary) !important;
         font-weight: 600;
         margin-bottom: 0.5rem;
-        display: block;
     }
 
     .nav-dropdown-content {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
         position: static;
-        opacity: 1;
-        visibility: visible;
         transform: none;
         box-shadow: none;
         background: transparent;
@@ -766,17 +777,19 @@ section {
         border-top: none;
         border-radius: 0;
         margin-top: 0;
-        display: flex;
         flex-direction: column;
         gap: 0.5rem;
     }
 
     .nav-dropdown-content a {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
         font-size: 0.95rem;
         padding: 0.5rem 1rem;
         background: var(--marble-gray);
         border-radius: 4px;
-        display: block;
+        color: var(--text-primary) !important;
     }
 
     .mobile-menu-btn {
