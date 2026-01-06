@@ -1,0 +1,31 @@
+<nav class="site-nav">
+    <div class="nav-container">
+        <a href="{{ '/' | relative_url }}" class="nav-logo">Class<span>Dem</span></a>
+        <ul class="nav-links">
+            <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>About</a></li>
+            <li><a href="{{ '/project' | relative_url }}" {% if page.url == '/project/' %}class="active"{% endif %}>Project</a></li>
+            <li class="nav-dropdown">
+                <a href="#">Research ▾</a>
+                <div class="nav-dropdown-content">
+                    {% for strand in site.research %}
+                    <a href="{{ strand.url | relative_url }}">{{ strand.title }}</a>
+                    {% endfor %}
+                </div>
+            </li>
+            <li><a href="{{ '/team' | relative_url }}" {% if page.url == '/team/' %}class="active"{% endif %}>Team</a></li>
+            <li><a href="{{ '/publications' | relative_url }}" {% if page.url == '/publications/' %}class="active"{% endif %}>Publications</a></li>
+            <li class="nav-dropdown">
+                <a href="#">News ▾</a>
+                <div class="nav-dropdown-content">
+                    <a href="{{ '/blog' | relative_url }}">All News</a>
+                    <a href="{{ '/events' | relative_url }}">Events</a>
+                </div>
+            </li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>
