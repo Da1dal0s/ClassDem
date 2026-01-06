@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<header class="page-header" style="background: linear-gradient(135deg, var(--charcoal) 0%, #1a1a1a 100%); color: white;">
-    <div class="section-label" style="color: var(--gold-accent);">Research Strand {{ page.number }}</div>
-    <h1>{{ page.title }}</h1>
-    <p class="subtitle" style="color: rgba(255,255,255,0.8);">{{ page.excerpt }}</p>
+<header class="page-header" style="background: linear-gradient(135deg, var(--stone-dark) 0%, #1a1a1a 100%); color: white;">
+    <div class="section-label" style="color: var(--gold);">Research Strand {{ page.number }}</div>
+    <h1 style="color: white;">{{ page.title }}</h1>
+    <p class="subtitle" style="color: rgba(255,255,255,0.85);">{{ page.excerpt }}</p>
 </header>
 
 <section>
@@ -26,11 +26,12 @@ layout: default
 </section>
 
 <!-- Research Navigation -->
-<nav style="background: var(--charcoal); padding: 2rem;">
+<nav style="background: var(--stone-dark); padding: 2rem;">
     <div class="container" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; max-width: 1000px;">
-        {% for strand in site.research %}
-        <a href="{{ strand.url | relative_url }}" style="display: block; padding: 1.5rem; background: {% if strand.url == page.url %}var(--terracotta){% else %}rgba(255,255,255,0.05){% endif %}; color: white; text-decoration: none; border-radius: 4px; text-align: center;">
-            <span style="font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 600; display: block;">{{ strand.number }}</span>
+        {% assign sorted_research = site.research | sort: 'number' %}
+        {% for strand in sorted_research %}
+        <a href="{{ strand.url | relative_url }}" style="display: block; padding: 1.5rem; background: {% if strand.url == page.url %}var(--bronze){% else %}rgba(255,255,255,0.05){% endif %}; color: white; text-decoration: none; border-radius: 4px; text-align: center; transition: background 0.3s;">
+            <span style="font-family: 'Cinzel', serif; font-size: 1.5rem; font-weight: 600; display: block;">{{ strand.number }}</span>
             <span style="font-size: 0.8rem; opacity: 0.8;">{{ strand.short_title }}</span>
         </a>
         {% endfor %}

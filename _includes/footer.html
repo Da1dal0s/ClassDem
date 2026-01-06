@@ -13,7 +13,8 @@
         <div class="footer-links">
             <h4>Research</h4>
             <ul>
-                {% for strand in site.research %}
+                {% assign sorted_research = site.research | sort: 'number' %}
+                {% for strand in sorted_research %}
                 <li><a href="{{ strand.url | relative_url }}">{{ strand.title }}</a></li>
                 {% endfor %}
             </ul>
@@ -31,7 +32,16 @@
     <div class="footer-bottom">
         <p>© {{ site.project.duration }} {{ site.title }} Project. {{ site.project.institution }}.</p>
         <div class="footer-logos">
-            <span>Funded by: UKRI · ERC · University of Edinburgh</span>
+            <span style="color: rgba(255,255,255,0.5); font-size: 0.8rem; margin-right: 1.5rem;">Funded by:</span>
+            <a href="https://www.ukri.org/" target="_blank" rel="noopener" style="opacity: 0.7; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.7'">
+                <img src="https://www.ukri.org/wp-content/uploads/2022/07/UKRI-210722-Logo-Horiz-StandardColour-RGB.png" alt="UKRI" style="height: 40px; filter: brightness(0) invert(1);">
+            </a>
+            <a href="https://erc.europa.eu/" target="_blank" rel="noopener" style="opacity: 0.7; transition: opacity 0.3s; margin-left: 2rem;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.7'">
+                <img src="https://erc.europa.eu/sites/default/files/2023-06/LOGO_ERC-FLAG_FP.png" alt="ERC" style="height: 45px; filter: brightness(0) invert(1);">
+            </a>
+            <a href="https://www.ed.ac.uk/" target="_blank" rel="noopener" style="opacity: 0.7; transition: opacity 0.3s; margin-left: 2rem;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.7'">
+                <img src="https://www.ed.ac.uk/sites/all/themes/uoe/assets/logo.png" alt="University of Edinburgh" style="height: 50px; filter: brightness(0) invert(1);">
+            </a>
         </div>
     </div>
 </footer>
