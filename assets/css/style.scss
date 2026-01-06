@@ -707,7 +707,7 @@ section {
     }
 
     .nav-links {
-        display: flex;
+        display: flex !important;
         position: fixed;
         top: 0;
         left: 0;
@@ -730,6 +730,7 @@ section {
     }
 
     .nav-links > li {
+        display: block !important;
         width: 100%;
         text-align: center;
         border-bottom: 1px solid var(--marble-gray);
