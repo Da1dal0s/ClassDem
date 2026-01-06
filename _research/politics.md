@@ -1,7 +1,7 @@
 ---
 title: Class & Politics
 short_title: Class & Politics
-number: III
+number: II
 excerpt: Examining how class oppositions structured episodes of civil strife (stasis), different constitutional arrangements, and redistributive mechanisms in Greek democracy.
 team:
   - name: Mirko Canevaro

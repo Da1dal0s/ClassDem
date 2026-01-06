@@ -1,7 +1,7 @@
 ---
 title: Class Identity & Culture
 short_title: Identity & Culture
-number: II
+number: III
 excerpt: Investigating dynamics of deference and distinction — from embodied class markers like demeanour and clothing to cultural tastes including music, athletics, and communal eating — and how popular morality restrained the powerful.
 team:
   - name: Mirko Canevaro
@@ -43,6 +43,3 @@ A key focus is popular mechanisms for controlling elite behaviour:
 - Festival contexts (comedy and tragedy) as spaces for popular critique
 - Religious and moral discourse as ideological resources for the non-elite
 
-## The Summative Monograph
-
-Douglas Cairns and Mirko Canevaro will jointly produce *Restraining the Powerful in Greek Popular Morality*, contributing a study of ethical and normative popular notions that became hegemonic and underpinned popular control of political and economic elites.
