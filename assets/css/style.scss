@@ -707,15 +707,13 @@ section {
     }
 
     .nav-links {
-        display: flex !important;
-        visibility: visible !important;
-        opacity: 1 !important;
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
         background: var(--marble-white);
+        display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -724,52 +722,46 @@ section {
         transition: transform 0.3s ease;
         padding: 6rem 2rem 2rem;
         overflow-y: auto;
-        z-index: 1001;
+        z-index: 999;
     }
 
     .nav-links.active {
         transform: translateX(0);
     }
 
-    .nav-links > li {
-        display: block !important;
-        visibility: visible !important;
-        opacity: 1 !important;
+    .nav-links li {
+        display: block;
         width: 100%;
         text-align: center;
         border-bottom: 1px solid var(--marble-gray);
         padding: 1rem 0;
     }
 
-    .nav-links > li > a {
-        display: block !important;
-        visibility: visible !important;
-        opacity: 1 !important;
+    .nav-links li a {
+        display: block;
         font-size: 1.2rem;
         padding: 0.5rem;
-        color: var(--text-primary) !important;
+        color: var(--text-primary);
     }
 
     .nav-dropdown {
-        display: block !important;
-        visibility: visible !important;
         width: 100%;
     }
 
     .nav-dropdown > a {
-        display: block !important;
-        visibility: visible !important;
-        font-size: 1rem;
-        color: var(--text-secondary) !important;
+        font-size: 1.2rem;
+        color: var(--text-primary);
         font-weight: 600;
         margin-bottom: 0.5rem;
     }
 
     .nav-dropdown-content {
-        display: flex !important;
-        visibility: visible !important;
-        opacity: 1 !important;
         position: static;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        opacity: 1;
+        visibility: visible;
         transform: none;
         box-shadow: none;
         background: transparent;
@@ -777,23 +769,20 @@ section {
         border-top: none;
         border-radius: 0;
         margin-top: 0;
-        flex-direction: column;
-        gap: 0.5rem;
     }
 
     .nav-dropdown-content a {
-        display: block !important;
-        visibility: visible !important;
-        opacity: 1 !important;
         font-size: 0.95rem;
         padding: 0.5rem 1rem;
         background: var(--marble-gray);
         border-radius: 4px;
-        color: var(--text-primary) !important;
+        color: var(--text-primary);
     }
 
     .mobile-menu-btn {
         display: block;
+        position: relative;
+        z-index: 1000;
     }
 
     .hero-content {
