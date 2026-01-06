@@ -47,19 +47,3 @@ There are significant points of contact between E.P. Thompson's work and Pierre 
 - **Cultural Dimension**: Both stress how class-consciousness is handled in cultural terms
 - **Beyond Determinism**: Both avoid economic determinism, opening the door for analysis that valorises cultural tastes and traditional values
 
-## Project Outputs
-
-The project will result in major scholarly outputs:
-
-**Monographs**
-- *Class Struggle in Ancient Greek Democracy* — The summative monograph by Canevaro and Lewis
-- *Restraining the Powerful in Greek Popular Morality* — By Cairns and Canevaro
-- Two further monographs by the postdoctoral fellows
-
-**Events**
-- Four public lectures by leading figures in class analysis
-- Three intensive workshops on the project's core themes
-- An international conference: *Class Consciousness and Class Struggle in Ancient Greek History*
-
-**Edited Volume**
-- An open-access volume resulting from the international conference
