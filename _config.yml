@@ -18,8 +18,14 @@ markdown: kramdown
 highlighter: rouge
 permalink: /blog/:year/:month/:title/
 
+# Include _pages directory
+include:
+  - _pages
+
 # Collections for research strands
 collections:
+  pages:
+    output: true
   research:
     output: true
     permalink: /research/:name/
@@ -39,7 +45,8 @@ defaults:
     values:
       layout: "research"
   - scope:
-      path: "_pages"
+      path: ""
+      type: "pages"
     values:
       layout: "page"
 
