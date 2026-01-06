@@ -65,9 +65,3 @@ permalink: /team/
 </div>
 {% endfor %}
 </div>
-
-## Join Our Team
-
-We are recruiting talented researchers to join the ClassDem project. Positions will be advertised on this page and through standard academic channels.
-
-For enquiries about positions, please contact [mirko.canevaro@ed.ac.uk](mailto:mirko.canevaro@ed.ac.uk).

@@ -7,7 +7,8 @@
             <li class="nav-dropdown">
                 <a href="#">Research ▾</a>
                 <div class="nav-dropdown-content">
-                    {% for strand in site.research %}
+                    {% assign sorted_research = site.research | sort: 'number' %}
+                    {% for strand in sorted_research %}
                     <a href="{{ strand.url | relative_url }}">{{ strand.title }}</a>
                     {% endfor %}
                 </div>
