@@ -1,0 +1,74 @@
+# Team members data
+# To add a photo, put the image in /assets/images/team/ and add the path below
+
+core:
+  - name: Mirko Canevaro
+    initials: MC
+    role: Principal Investigator
+    position: Professor of Greek History
+    affiliation: University of Edinburgh
+    bio: >
+      Mirko Canevaro is Professor of Greek History at the University of Edinburgh. 
+      He has been awarded two ERC grants: one on 'Honour in Ancient Greece' (2018-2023) 
+      and one on 'Class Struggle in Ancient Greek Democracy' (2024-2029).
+    email: mirko.canevaro@ed.ac.uk
+    url: https://www.ed.ac.uk/history-classics-archaeology/about-us/staff-profiles/mirko-canevaro
+    # image: /assets/images/team/canevaro.jpg
+
+  - name: David Lewis
+    initials: DL
+    role: Co-Investigator
+    position: Senior Lecturer in Greek History and Culture
+    affiliation: University of Edinburgh
+    bio: >
+      David Lewis is widely recognised as one of the leading scholars of ancient Greek slavery, 
+      and has made key contributions to the study of the Greek economy and society.
+    url: https://www.ed.ac.uk/history-classics-archaeology/about-us/staff-profiles/david-lewis
+    # image: /assets/images/team/lewis.jpg
+
+  - name: Douglas Cairns
+    initials: DC
+    role: Co-Investigator
+    position: Professor of Classics
+    affiliation: University of Edinburgh
+    bio: >
+      Douglas Cairns is a leading authority for the study of Greek intellectual history, 
+      ethics, and the history of emotions, with a focus on dynamics of social interaction.
+    url: https://www.ed.ac.uk/history-classics-archaeology/about-us/staff-profiles/douglas-cairns
+    # image: /assets/images/team/cairns.jpg
+
+postdocs:
+  - name: Postdoctoral Fellow I
+    initials: "?"
+    role: Class & the Economy
+    position: To be appointed
+    affiliation: University of Edinburgh
+    bio: >
+      This position is reserved for an archaeologist whose expertise will complement 
+      Lewis' work towards the analysis of the occupational structure of Greek democracy.
+
+  - name: Postdoctoral Fellow II
+    initials: "?"
+    role: Class & Politics
+    position: To be appointed
+    affiliation: University of Edinburgh
+    bio: >
+      This position will focus on research within the Class & Politics strand, 
+      exploring how class oppositions structured civil strife and constitutional arrangements.
+
+phd_students:
+  - name: PhD Student I
+    initials: "?"
+    role: Research Student
+    position: To be appointed
+    affiliation: University of Edinburgh
+    bio: >
+      PhD position within the project's core research strands.
+
+  - name: PhD Student II
+    initials: "?"
+    role: Research Student
+    position: To be appointed
+    affiliation: University of Edinburgh
+    bio: >
+      PhD position within the Class at the Intersection strand.
