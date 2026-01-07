@@ -80,3 +80,40 @@ admin:
     affiliation: University of Edinburgh
     bio: >
       Working for the polis in Classical Attica
+
+affiliated:
+  - name: Kleanthis Mantzouranis
+    initials: KM
+    role: Affiliated Researcher
+    position: Affiliated Researcher
+    affiliation: University of Edinburgh
+
+  - name: Matteo Demartis
+    initials: MD
+    role: Affiliated PhD Student
+    position: Affiliated PhD Student
+    affiliation: University of Edinburgh
+
+  - name: Giulia La Cognata
+    initials: GLC
+    role: Affiliated PhD Student
+    position: Affiliated PhD Student
+    affiliation: University of Edinburgh
+
+  - name: Minghan Li
+    initials: ML
+    role: Affiliated PhD Student
+    position: Affiliated PhD Student
+    affiliation: University of Edinburgh
+
+  - name: Giulia Fanesi
+    initials: GF
+    role: Affiliated PhD Student
+    position: Affiliated PhD Student
+    affiliation: University of Edinburgh
+
+  - name: Oliver Zizzari
+    initials: OZ
+    role: Affiliated PhD Student
+    position: Affiliated PhD Student
+    affiliation: University of Edinburgh

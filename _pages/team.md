@@ -24,7 +24,7 @@ permalink: /team/
 <p><strong style="color: var(--bronze);">{{ member.role }}</strong><br>
 {{ member.position }}, {{ member.affiliation }}</p>
 <p>{{ member.bio }}</p>
-<p><a href="mailto:{{ member.email }}">{{ member.email }}</a> · <a href="{{ member.url }}">Edinburgh Profile →</a></p>
+<p><a href="mailto:{{ member.email }}">{{ member.email }}</a> · <a href="{{ member.url }}" target="_blank" rel="noopener noreferrer">Edinburgh Profile →</a></p>
 </div>
 </div>
 {% endif %}
@@ -47,7 +47,7 @@ permalink: /team/
 <p><strong style="color: var(--bronze);">{{ member.role }}</strong><br>
 {{ member.position }}</p>
 <p style="font-size: 0.95rem;">{{ member.bio }}</p>
-{% if member.url %}<p><a href="{{ member.url }}">Profile →</a></p>{% endif %}
+{% if member.url %}<p><a href="{{ member.url }}" target="_blank" rel="noopener noreferrer">Profile →</a></p>{% endif %}
 </div>
 {% endunless %}
 {% endfor %}
@@ -62,7 +62,7 @@ permalink: /team/
 <p><strong style="color: var(--terracotta);">{{ member.role }}</strong><br>
 {{ member.position }}</p>
 <p style="font-size: 0.95rem;">{{ member.bio }}</p>
-{% if member.url %}<p><a href="{{ member.url }}">Profile →</a></p>{% endif %}
+{% if member.url %}<p><a href="{{ member.url }}" target="_blank" rel="noopener noreferrer">Profile →</a></p>{% endif %}
 </div>
 {% endfor %}
 </div>
@@ -89,6 +89,17 @@ permalink: /team/
 <p><strong style="color: var(--terracotta);">{{ member.role }}</strong><br>
 {{ member.position }}</p>
 <p style="font-size: 0.95rem;">{{ member.bio }}</p>
+</div>
+{% endfor %}
+</div>
+
+## Affiliated Team Members
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+{% for member in site.data.team.affiliated %}
+<div style="background: white; padding: 1.5rem; border-radius: 8px;">
+<h4>{{ member.name }}</h4>
+<p><strong style="color: var(--terracotta);">{{ member.role }}</strong></p>
 </div>
 {% endfor %}
 </div>
