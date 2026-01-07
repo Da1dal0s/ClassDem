@@ -2,10 +2,19 @@
 layout: default
 ---
 
-<header class="page-header" style="background: linear-gradient(135deg, var(--stone-dark) 0%, #1a1a1a 100%); color: white;">
-    <div class="section-label" style="color: var(--gold);">Research Strand {{ page.number }}</div>
-    <h1 style="color: white;">{{ page.title }}</h1>
-    <p class="subtitle" style="color: rgba(255,255,255,0.85);">{{ page.excerpt }}</p>
+<header class="page-header" style="background: linear-gradient(135deg, var(--stone-dark) 0%, #1a1a1a 100%); color: white; position: relative; overflow: hidden;">
+    {% if page.number == 'I' %}
+    <div style="position: absolute; top: 0; right: 0; width: 50%; height: 100%; opacity: 0.12; background: url('{{ '/assets/images/Coins.jpg' | relative_url }}') center/cover no-repeat; pointer-events: none;"></div>
+    {% elsif page.number == 'II' %}
+    <div style="position: absolute; top: 0; right: 0; width: 50%; height: 100%; opacity: 0.12; background: url('{{ '/assets/images/Pnyx.png' | relative_url }}') center/cover no-repeat; pointer-events: none;"></div>
+    {% elsif page.number == 'IV' %}
+    <div style="position: absolute; top: 0; right: 0; width: 50%; height: 100%; opacity: 0.12; background: url('{{ '/assets/images/Crafts.jpg' | relative_url }}') center/cover no-repeat; pointer-events: none;"></div>
+    {% endif %}
+    <div style="position: relative; z-index: 1;">
+        <div class="section-label" style="color: var(--gold);">Research Strand {{ page.number }}</div>
+        <h1 style="color: white;">{{ page.title }}</h1>
+        <p class="subtitle" style="color: rgba(255,255,255,0.85);">{{ page.excerpt }}</p>
+    </div>
 </header>
 
 <section>

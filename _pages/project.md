@@ -5,6 +5,10 @@ subtitle: A five-year investigation into the role of class dynamics in the emerg
 permalink: /project/
 ---
 
+<div style="float: right; width: 250px; margin: 0 0 1.5rem 1.5rem; opacity: 0.85;">
+  <img src="{{ '/assets/images/Demos.jpg' | relative_url }}" alt="Ancient Greek democracy" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+</div>
+
 ## Introduction
 
 This project aims to put class at the centre of the historical reconstruction of ancient Greek democracy. It contends that class struggle — grounded in the economic relations and occupational structures of the Greek cities, and manifesting itself in the social, political, and cultural oppositions that characterised them — is fundamental to our understanding of Greek democracy.

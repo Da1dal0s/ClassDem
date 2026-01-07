@@ -3,8 +3,9 @@ layout: default
 ---
 
 <!-- Hero Section -->
-<section class="hero">
-    <div class="hero-content">
+<section class="hero" style="position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; right: 0; width: 40%; height: 100%; opacity: 0.08; background: url('{{ '/assets/images/Constitution.jpg' | relative_url }}') center/cover no-repeat; pointer-events: none;"></div>
+    <div class="hero-content" style="position: relative; z-index: 1;">
         <div class="hero-badge">{{ site.project.funder }} {{ site.project.duration }}</div>
         <h1>Class Struggle in Ancient Greek <em>Democracy</em></h1>
         <p class="hero-subtitle">Putting class at the centre of our understanding of the emergence, nature, and development of Greek democracy — where it belongs.</p>
