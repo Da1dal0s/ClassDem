@@ -11,11 +11,17 @@ permalink: /team/
 {% if member.role == "Principal Investigator" %}
 <div style="display: grid; grid-template-columns: 200px 1fr; gap: 2rem; margin-bottom: 3rem; background: white; padding: 2rem; border-radius: 8px;">
 <div style="text-align: center;">
-<div style="width: 150px; height: 150px; border-radius: 50%; background: var(--light-warm); display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', serif; font-size: 3rem; color: var(--warm-gray); margin: 0 auto;">{{ member.initials }}</div>
+<div style="width: 150px; height: 150px; border-radius: 50%; background: var(--marble-gray); display: flex; align-items: center; justify-content: center; font-family: 'Cinzel', serif; font-size: 3rem; color: var(--text-secondary); margin: 0 auto; overflow: hidden; border: 3px solid var(--bronze);">
+{% if member.image %}
+<img src="{{ member.image | relative_url }}" alt="{{ member.name }}" style="width: 100%; height: 100%; object-fit: cover;">
+{% else %}
+{{ member.initials }}
+{% endif %}
+</div>
 </div>
 <div>
 <h3 style="margin-top: 0;">{{ member.name }}</h3>
-<p><strong style="color: var(--terracotta);">{{ member.role }}</strong><br>
+<p><strong style="color: var(--bronze);">{{ member.role }}</strong><br>
 {{ member.position }}, {{ member.affiliation }}</p>
 <p>{{ member.bio }}</p>
 <p><a href="mailto:{{ member.email }}">{{ member.email }}</a> · <a href="{{ member.url }}">Edinburgh Profile →</a></p>
@@ -29,9 +35,16 @@ permalink: /team/
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
 {% for member in site.data.team.core %}
 {% unless member.role == "Principal Investigator" %}
-<div style="background: white; padding: 1.5rem; border-radius: 8px;">
+<div style="background: white; padding: 1.5rem; border-radius: 8px; text-align: center;">
+<div style="width: 120px; height: 120px; border-radius: 50%; background: var(--marble-gray); display: flex; align-items: center; justify-content: center; font-family: 'Cinzel', serif; font-size: 2rem; color: var(--text-secondary); margin: 0 auto 1rem; overflow: hidden; border: 3px solid var(--bronze);">
+{% if member.image %}
+<img src="{{ member.image | relative_url }}" alt="{{ member.name }}" style="width: 100%; height: 100%; object-fit: cover;">
+{% else %}
+{{ member.initials }}
+{% endif %}
+</div>
 <h4>{{ member.name }}</h4>
-<p><strong style="color: var(--terracotta);">{{ member.role }}</strong><br>
+<p><strong style="color: var(--bronze);">{{ member.role }}</strong><br>
 {{ member.position }}</p>
 <p style="font-size: 0.95rem;">{{ member.bio }}</p>
 {% if member.url %}<p><a href="{{ member.url }}">Profile →</a></p>{% endif %}
@@ -49,6 +62,7 @@ permalink: /team/
 <p><strong style="color: var(--terracotta);">{{ member.role }}</strong><br>
 {{ member.position }}</p>
 <p style="font-size: 0.95rem;">{{ member.bio }}</p>
+{% if member.url %}<p><a href="{{ member.url }}">Profile →</a></p>{% endif %}
 </div>
 {% endfor %}
 </div>
@@ -57,6 +71,19 @@ permalink: /team/
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
 {% for member in site.data.team.phd_students %}
+<div style="background: white; padding: 1.5rem; border-radius: 8px;">
+<h4>{{ member.name }}</h4>
+<p><strong style="color: var(--terracotta);">{{ member.role }}</strong><br>
+{{ member.position }}</p>
+<p style="font-size: 0.95rem;">{{ member.bio }}</p>
+</div>
+{% endfor %}
+</div>
+
+## Project Administration
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+{% for member in site.data.team.admin %}
 <div style="background: white; padding: 1.5rem; border-radius: 8px;">
 <h4>{{ member.name }}</h4>
 <p><strong style="color: var(--terracotta);">{{ member.role }}</strong><br>
