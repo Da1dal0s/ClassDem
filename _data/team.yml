@@ -1,5 +1,5 @@
 # Team members data
-# To add a photo, put the image in /assets/images/team/ and add the path below
+# To add a photo, put the image in /assets/images/ and add the path below
 
 core:
   - name: Mirko Canevaro
@@ -8,12 +8,13 @@ core:
     position: Professor of Greek History
     affiliation: University of Edinburgh
     bio: >
-      Mirko Canevaro is Professor of Greek History at the University of Edinburgh. 
-      He has been awarded two ERC grants: one on 'Honour in Ancient Greece' (2018-2023) 
-      and one on 'Class Struggle in Ancient Greek Democracy' (2024-2029).
+      Mirko Canevaro is a Greek historian with particular interests in the institutional and social history
+      of ancient Athens and of the Greek city-states. He has published extensively on Athens' legal and political
+      institutions, on Greek political decision making and constitutionalism, on conceptions of honour, rights
+      and recognition, and on ancient political theory.
     email: mirko.canevaro@ed.ac.uk
-    url: https://www.ed.ac.uk/history-classics-archaeology/about-us/staff-profiles/mirko-canevaro
-    # image: /assets/images/team/canevaro.jpg
+    url: https://edwebprofiles.ed.ac.uk/profile/mirko-canevaro
+    image: /assets/images/Canevaro.jpg
 
   - name: David Lewis
     initials: DL
@@ -22,8 +23,8 @@ core:
     affiliation: University of Edinburgh
     bio: >
       David Lewis works on ancient Greek economic history, especially the history of slavery and labour more broadly.
-    url: https://www.ed.ac.uk/history-classics-archaeology/about-us/staff-profiles/david-lewis
-    # image: /assets/images/team/lewis.jpg
+    url: https://edwebprofiles.ed.ac.uk/profile/david-lewis
+    image: /assets/images/Lewis.jpg
 
   - name: Douglas Cairns
     initials: DC
@@ -31,43 +32,51 @@ core:
     position: Professor of Classics
     affiliation: University of Edinburgh
     bio: >
-      Douglas Cairns is a leading authority for the study of Greek intellectual history, 
+      Douglas Cairns is a leading authority for the study of Greek intellectual history,
       ethics, and the history of emotions, with a focus on dynamics of social interaction.
-    url: https://www.ed.ac.uk/history-classics-archaeology/about-us/staff-profiles/douglas-cairns
-    # image: /assets/images/team/cairns.jpg
+    url: https://edwebprofiles.ed.ac.uk/profile/douglas-cairns
+    image: /assets/images/Cairns.png
 
 postdocs:
-  - name: Postdoctoral Fellow I
-    initials: "?"
-    role: Class & the Economy
-    position: To be appointed
+  - name: Thomas Clements
+    initials: TC
+    role: Postdoctoral Fellow
+    position: Postdoctoral Research Fellow
     affiliation: University of Edinburgh
     bio: >
-      This position is reserved for an archaeologist whose expertise will complement 
-      Lewis' work towards the analysis of the occupational structure of Greek democracy.
+      Project Title TBC
+    url: https://edwebprofiles.ed.ac.uk/profile/tomclements
 
-  - name: Postdoctoral Fellow II
-    initials: "?"
-    role: Class & Politics
-    position: To be appointed
+  - name: Matthew Hewitt
+    initials: MH
+    role: Postdoctoral Fellow
+    position: Postdoctoral Research Fellow
     affiliation: University of Edinburgh
     bio: >
-      This position will focus on research within the Class & Politics strand, 
-      exploring how class oppositions structured civil strife and constitutional arrangements.
+      Project Title TBC
 
 phd_students:
-  - name: PhD Student I
-    initials: "?"
-    role: Research Student
-    position: To be appointed
+  - name: Veronica Capriotti
+    initials: VC
+    role: PhD Student
+    position: PhD Researcher
     affiliation: University of Edinburgh
     bio: >
-      PhD position within the project's core research strands.
+      The role of the navy and the harbour in class struggle and class-formation in the ancient world
 
-  - name: PhD Student II
-    initials: "?"
-    role: Research Student
-    position: To be appointed
+  - name: Roberto Russo
+    initials: RR
+    role: PhD Student
+    position: PhD Researcher
     affiliation: University of Edinburgh
     bio: >
-      PhD position within the Class at the Intersection strand.
+      Frontier democracies: class struggle and democratic experiences in colonial contexts
+
+admin:
+  - name: Panayiotis Karageorgopoulos
+    initials: PK
+    role: Project Administrator
+    position: Project Administrator
+    affiliation: University of Edinburgh
+    bio: >
+      Working for the polis in Classical Attica
