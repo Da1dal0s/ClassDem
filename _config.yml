@@ -1,8 +1,8 @@
 # Site settings
 title: ClassDem
 description: "Class Struggle in Ancient Greek Democracy — UKRI/ERC Frontier Research Grant 2024–2029"
-url: "https://da1dal0s.github.io"
-baseurl: "/ClassDem"
+url: "https://classdem.hca.ed.ac.uk"
+baseurl: ""
 
 # Project info
 project:
