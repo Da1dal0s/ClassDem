@@ -11,10 +11,9 @@ author: ClassDem Team
 
 **Date:** Monday, 10 February 2026
 **Time:** 6:00 PM - 7:30 PM GMT
-**Location:** G.07 Informatics Forum, the University of Edinburgh
-10 Crichton Street, Edinburgh EH8 9AB
+**Location:** G.07 Informatics Forum, University of Edinburgh, 10 Crichton Street, Edinburgh EH8 9AB
 
-**[Register on Eventbrite](https://www.eventbrite.co.uk/e/kenan-malik-how-the-british-working-class-became-white-tickets-1980464859708?aff=oddtdtcreator)**
+**<a href="https://www.eventbrite.co.uk/e/kenan-malik-how-the-british-working-class-became-white-tickets-1980464859708?aff=oddtdtcreator" target="_blank">Register on Eventbrite</a>**
 
 ## About the Event
 
