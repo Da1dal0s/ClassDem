@@ -9,7 +9,7 @@ author: ClassDem Team
 
 ## Event Details
 
-**Date:** Monday, 10 February 2026<br>
+**Date:** Tuesday, 10 February 2026<br>
 **Time:** 6:00 PM - 7:30 PM GMT<br>
 **Location:** G.07 Informatics Forum, University of Edinburgh, 10 Crichton Street, Edinburgh EH8 9AB
 
