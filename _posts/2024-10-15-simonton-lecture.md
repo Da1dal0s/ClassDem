@@ -5,9 +5,9 @@ category: Event
 author: ClassDem Team
 ---
 
-The first lecture of the ClassDem project was delivered by **Professor Matt Simonton** (Arizona State University) on the topic of demagogues and their role in ancient Greek class politics.
-
 ![Dog illustration](/assets/images/Dog.jpg)
+
+The first lecture of the ClassDem project was delivered by **Professor Matt Simonton** (Arizona State University) on the topic of demagogues and their role in ancient Greek class politics.
 
 ## Abstract
 
