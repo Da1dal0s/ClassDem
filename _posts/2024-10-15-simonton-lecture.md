@@ -3,9 +3,8 @@ title: "Matt Simonton: Dogs, Ticks, Monsters, Madmen — The Demagogues in Ancie
 date: 2024-10-15
 category: Event
 author: ClassDem Team
+header_image: /assets/images/Dog.jpg
 ---
-
-![Dog illustration](/assets/images/Dog.jpg)
 
 The first lecture of the ClassDem project was delivered by **Professor Matt Simonton** (Arizona State University) on the topic of demagogues and their role in ancient Greek class politics.
 
