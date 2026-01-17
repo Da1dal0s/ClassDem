@@ -2,13 +2,26 @@
 layout: default
 ---
 
-<header class="page-header">
+<header class="page-header" {% if page.header_image %}style="background: linear-gradient(135deg, var(--stone-dark) 0%, #1a1a1a 100%); color: white; position: relative; overflow: hidden;"{% endif %}>
+    {% if page.header_image %}
+    <div style="position: absolute; top: 0; right: 0; width: 50%; height: 100%; opacity: 0.20; background: url('{{ page.header_image | relative_url }}') center/cover no-repeat; pointer-events: none;"></div>
+    <div style="position: relative; z-index: 1;">
+        <div class="post-meta" style="color: var(--gold);">
+            <span class="category">{{ page.category }}</span> · {{ page.date | date: "%B %d, %Y" }}
+        </div>
+        <h1 style="color: white;">{{ page.title }}</h1>
+        {% if page.author %}
+        <p class="subtitle" style="color: rgba(255,255,255,0.85);">By {{ page.author }}</p>
+        {% endif %}
+    </div>
+    {% else %}
     <div class="post-meta">
         <span class="category">{{ page.category }}</span> · {{ page.date | date: "%B %d, %Y" }}
     </div>
     <h1>{{ page.title }}</h1>
     {% if page.author %}
     <p class="subtitle">By {{ page.author }}</p>
+    {% endif %}
     {% endif %}
 </header>
 
