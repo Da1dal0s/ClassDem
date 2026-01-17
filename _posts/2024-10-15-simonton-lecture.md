@@ -1,5 +1,5 @@
 ---
-title: "Lecture: Dogs, Ticks, Monsters, Madmen — The Demagogues in Ancient Greek Class Struggle"
+title: "Matt Simonton: Dogs, Ticks, Monsters, Madmen — The Demagogues in Ancient Greek Class Struggle"
 date: 2024-10-15
 category: Event
 author: ClassDem Team
@@ -19,4 +19,4 @@ Matt Simonton is Associate Professor of History at Arizona State University and 
 
 ## Recording
 
-A recording of the lecture will be made available on this website. Check back soon.
+<iframe id="kaltura_player" type="text/javascript"  src='https://cdnapisec.kaltura.com/p/2010292/embedPlaykitJs/uiconf_id/55171522?iframeembed=true&entry_id=1_ztk4ar3w&config[provider]={"widgetId":"1_zeodo9z0"}'  style="width: 100%;height: 100%;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Kaltura Player"></iframe>
