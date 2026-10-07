@@ -71,3 +71,12 @@ phd_students:
     affiliation: University of Edinburgh
     bio: >
       PhD position within the Class at the Intersection strand.
+
+affiliated:
+  - name: Maylla Bisson
+    initials: MB
+    role: Affiliated PhD Student
+    position: PhD Student
+    affiliation: University of Edinburgh
+    bio: >
+      Affiliated PhD student working with the ClassDem project.

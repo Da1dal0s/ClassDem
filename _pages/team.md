@@ -65,3 +65,16 @@ permalink: /team/
 </div>
 {% endfor %}
 </div>
+
+## Affiliated Team Members
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+{% for member in site.data.team.affiliated %}
+<div style="background: white; padding: 1.5rem; border-radius: 8px;">
+<h4>{{ member.name }}</h4>
+<p><strong style="color: var(--terracotta);">{{ member.role }}</strong><br>
+{{ member.position }}</p>
+<p style="font-size: 0.95rem;">{{ member.bio }}</p>
+</div>
+{% endfor %}
+</div>
