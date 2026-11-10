@@ -3,6 +3,7 @@ title: "Class and the Economy: Workshop on Labour Relations and Economic Structu
 date: 2026-11-13
 category: Event
 author: ClassDem Team
+header_image: /assets/images/medieval-city.jpg
 ---
 
 Following the roundtable on 12 November, the ClassDem Project hosts an intensive all-day workshop exploring **class formation in the context of labour relations and economic structures** in the ancient Greek world.
