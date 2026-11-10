@@ -3,8 +3,9 @@ title: "Class, Feudal and Tributary Modes of Production, and the Ancient Greek E
 date: 2026-11-12
 category: Event
 author: ClassDem Team
-header_image: /assets/images/roundtable-nov2026.jpg
 ---
+
+![Roundtable Poster](/ClassDem/assets/images/roundtable-nov2026.jpg)
 
 The UKRI/ERC Project *Class Struggle in Ancient Greek Democracy* presents a roundtable discussion on **Class, Feudal and Tributary Modes of Production, and the Ancient Greek Economy**, held in memory of Professor Chris Wickham.
 
