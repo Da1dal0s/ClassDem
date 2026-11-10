@@ -8,7 +8,7 @@ header_image: /assets/images/medieval-fresco.jpg
 
 The UKRI/ERC Project *Class Struggle in Ancient Greek Democracy* presents a roundtable discussion on **Class, Feudal and Tributary Modes of Production, and the Ancient Greek Economy**, held in memory of Professor Chris Wickham.
 
-This event introduces an [all-day workshop on Class and the Economy]({{ site.baseurl }}/blog/2026/11/13/class-economy-workshop/) held on the following day, bringing together leading scholars to explore the dynamics of economic structures and class formation in ancient Greek poleis.
+This event introduces an [all-day workshop on Class and the Economy](/blog/2026/11/class-economy-workshop/) held on the following day, bringing together leading scholars to explore the dynamics of economic structures and class formation in ancient Greek poleis.
 
 ## Event Details
 
