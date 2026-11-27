@@ -42,3 +42,7 @@ This event is **open to all** members of the School of History, Classics and Arc
 For more information, please contact:  
 **Prof. Mirko Canevaro** — [mirko.canevaro@ed.ac.uk](mailto:mirko.canevaro@ed.ac.uk)  
 **Panayiotis Karageorgopoulos** — [pkarageo@ed.ac.uk](mailto:pkarageo@ed.ac.uk)
+
+## Recording
+
+<iframe id="kaltura_player" type="text/javascript"  src='https://cdnapisec.kaltura.com/p/2010292/embedPlaykitJs/uiconf_id/55171522?iframeembed=true&entry_id=1_pq61u9b6&config[provider]={"widgetId":"1_vakx5043"}'  style="width: 100%;height: 500px;border: 0;" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" title="Class, Feudal and Tributary Modes of Production, and the Ancient Greek Economy"></iframe>
